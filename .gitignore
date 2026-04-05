@@ -1,0 +1,19 @@
+# Hugoのデフォルト出力ディレクトリ
+public/
+resources/_gen/
+assets/jsconfig.json
+
+# ビルドロックファイル
+.hugo_build.lock
+
+# OS固有のゴミファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定（任意：チーム開発でないなら除外推奨）
+.vscode/
+.idea/
+
+# Hugo Modulesのキャッシュ（通常は不要）
+# ただし、go.mod と go.sum は「必ず」コミットしてください
+

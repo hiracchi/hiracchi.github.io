@@ -1,0 +1,9 @@
+baseURL = "https://hiracchi.github.io/"
+languageCode = "ja"
+title = "Toshiyuki Hirano's Portfolio"
+theme = ["github.com/nunocoracao/blowfish/v2"]
+
+[params]
+  colorScheme = "blowfish" # テーマカラー
+  defaultAppearance = "dark" # デフォルトをダークモードに
+

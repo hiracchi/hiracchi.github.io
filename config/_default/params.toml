@@ -1,0 +1,33 @@
+# --- 全般設定 ---
+[header]
+  layout = "basic" # シンプルなヘッダー
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false # クレジットを消したい場合は false
+
+# --- 記事・数式・図解の設定 ---
+[article]
+  showDate = true
+  showViews = false
+  showReadingTime = true
+  math = true      # LaTeX有効化
+  mermaid = true   # Mermaid図解有効化
+
+# --- プロフィールカードの設定（トップページ用） ---
+[author]
+  name = "Toshiyuki Hirano"
+  image = "img/author.jpg" # assets/img/author.jpg に画像を配置
+  headline = "Associate Professor at Tokyo Metropolitan College of Industrial Technology"
+  bio = "ProteinDF / QCLObot developer. Researching Parallel Quantum Chemistry and HPC."
+  links = [
+    { github = "https://github.com/hiracchi" },
+    { google-scholar = "https://scholar.google.com/..." }, # 任意
+  ]
+
+# --- 外観の設定 ---
+[appearance]
+  defaultAppearance = "dark" # 研究者・エンジニアに人気のダークモードをデフォルトに
+  showAppearanceSwitcher = true # ライト/ダークの切り替えボタンを表示
+
+
